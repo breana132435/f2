@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormWizard_v5</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="../static/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../static/css/survey.css">
+
+	</head>
+
+	<body>
+		<div style="padding-left:20%;padding-right:20%;background-color:#f5f9fd;">
+			<!--
+			<div class="image-holder">
+				<img src="../static/img/form-wizard.png" alt="">
+			</div>
+			-->
+            <form action="">
+				<center style="padding-top:30px;padding-bottom:10px;"><a href="../"><img src="../static/img/logo.png"></a></center>
+            	<div id="wizard" style="padding-left:30%;">
+            		<!-- SECTION 1 -->
+					<div class="section">
+						<h2 style="color:#e474a4;">당신의 이름을 알려주세요.</h2>
+						<section>
+							<div class="form-row">
+								<label style="color:#adb3c1;">
+									* 별명이나 애칭도 괜찮아요.
+								</label>
+								<input type="text" class="form-control" style="width:50%">
+							</div>
+						</section>
+					</div>
+					<!-- SECTION 2 -->
+					<div class="section">
+						<h2 style="color:#e474a4;margin-bottom:1%;">성별을 알려주세요.</h2>
+						<section>
+							<div class="form-row">
+								<label class="active">
+									<input type="radio" name="gender" value="female">여성
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="gender" value="male">남성
+									<span class="checkmark"></span>
+								</label>
+							</div>
+						</section>
+					</div>
+					<!-- SECTION 3 -->
+					<div class="section">
+						<h2 style="color:#e474a4;">나이를 알려주세요.</h2>
+						<section>
+							<div class="form-row">
+								<label style="color:#adb3c1;">
+									* 나이에 따라 필요 영양성분이 다를 수 있어요.
+								</label>
+								<input type="text" class="form-control" style="width:50%">
+							</div>
+						</section>
+					</div>
+					<!-- SECTION 4 -->
+					<div class="section">
+						<h2 style="color:#e474a4;">요즘 스트레스를 얼마나 받으세요?</h2>
+						<section>
+							<div class="form-row">
+								<label style="color:#adb3c1;">
+									* 스트레스 지수 0-9
+								</label>
+								<label class="active">
+									<input type="radio" name="stress" value="1">0-3 (거의 받지 않음)
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="stress" value="2">4-6 (가끔 받음)
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="stress" value="3">7-9 (자주 받음)
+									<span class="checkmark"></span>
+								</label>
+							</div>
+						</section>
+					</div>
+					<!-- SECTION 5 -->
+					<div class="section">
+						<h2 style="color:#e474a4;">피로감을 얼마나 느끼시나요?</h2>
+						<section>
+							<div class="form-row">
+								<label style="color:#adb3c1;">
+									* 피로도 지수 0-9
+								</label>
+								<label class="active">
+									<input type="radio" name="tired" value="1">0-3 (활력이 넘침)
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="tired" value="2">4-6 (가끔 피로함)
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="tired" value="3">7-9 (자주 피로한 편)
+									<span class="checkmark"></span>
+								</label>
+							</div>
+						</section>
+					</div>
+					<!-- SECTION 6 -->
+					<div class="section">
+						<h2 style="color:#e474a4;margin-bottom:1%;">수면의 질을 평가해주세요.</h2>
+						<section>
+							<div class="form-row">
+								<label class="active">
+									<input type="radio" name="sleep" value="1">잠을 잘 자서 아침에 개운하다
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="sleep" value="2">가끔 잠을 설쳐서 피곤하다
+									<span class="checkmark"></span>
+								</label>
+								<label class="active">
+									<input type="radio" name="sleep" value="3">숙면을 취하지 못해 자주 피곤하다
+									<span class="checkmark"></span>
+								</label>
+							</div>
+						</section>
+					</div>
+					<!--<a href="../"><img src="../static/img/s-button.jpg" style="max-width:30%;"/></a>-->
+					<button type="button"><a href="../">결과보기</a></button>
+            	</div>
+            </form>
+		</div>
+		<!--page
+		<script src="../static/js/jquery-3.3.1.min.js"></script>
+		-->
+
+		<!-- JQUERY STEP -->
+		<script src="../static/js/jquery.steps.js"></script>
+
+		<script src="../static/js/survey_main.js"></script>
+<!-- Template created and distributed by Colorlib -->
+</body>
+</html>
